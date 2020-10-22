@@ -1,0 +1,20 @@
+# Copyright 2020 NXP Semiconductors
+# This page was inspired on MediaPipe page: https://github.com/google/mediapipe
+# SPDX-License-Identifier: BSD-3-Clause
+
+remote_theme: pmarsceill/just-the-docs
+
+logo: idocmx
+
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+
+heading_anchors: true
+
+aux_links:
+  "Source Code Available on CAF":
+    - "link"
+
+footer_content: "<a href=\"link">LICENSE TERMS</a>"
+
+color_scheme: nil
