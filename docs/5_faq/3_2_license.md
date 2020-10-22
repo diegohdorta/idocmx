@@ -14,7 +14,8 @@ nav_order: 2
 
 ![badge][license_badge]
 
-The iDOCmx page is a free documentation page granted under the terms of the[BSD 3-Clause License][license]:
+The iDOCmx page is a free documentation page granted under the terms of the
+[BSD 3-Clause License][license]:
 
 ```license
 Redistribution and use in source and binary forms, with or without
