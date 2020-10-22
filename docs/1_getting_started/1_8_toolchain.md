@@ -17,8 +17,6 @@ nav_order: 3
 * The described procedures in this document targets a GNU/Linux (Ubuntu 18.04.3 LTS).
 * You need root privileges (sudo) to use apt update and apt install.
 
-### Tools
-
 To compile and build our OS, we need to install a few tools and packages.
 
 1. Open a terminal console and type:
@@ -99,7 +97,7 @@ previously-built images.
 
 1. Build the SDK with the Qt 5 support:
 ```console
-$bitbake fsl-image-qt5 -c populate_sdk
+$ bitbake fsl-image-qt5 -c populate_sdk
 ```
 
 After the build process finishes, it produces an installer script that can be
