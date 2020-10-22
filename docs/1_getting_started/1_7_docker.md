@@ -35,29 +35,29 @@ $ echo "BBLAYERS += \" \${BSPDIR}/sources/meta-virtualization \"" >> conf/bblaye
 
 4. Update the local.conf as follows:
 
-4.1 Add extra space for images:
+ * Add extra space for images:
 ```console
 IMAGE_ROOTFS_EXTRA_SPACE = " 10000000 "
 ```
 
-4.2 Add docker to the image and also connman to manage the networking:
+ * Add docker to the image and also connman to manage the networking:
 ```console
 DISTRO_FEATURES_append = " virtualization "
 IMAGE_INSTALL_append += " docker docker-contrib connman connman-client "
 CORE_IMAGE_EXTRA_INSTALL += " openssh "
 ```
 
-4.3 Add basic development capabilities:
+ * Add basic development capabilities:
 ```console
 EXTRA_IMAGE_FEATURES = " dev-pkgs debug-tweaks tools-debug ssh-server-openssh "
 ```
 
-4.4 Add packages for networking capabilities:
+ * Add packages for networking capabilities:
 ```console
 IMAGE_INSTALL_append = " net-tools iputils dhcpcd "
 ```
 
-4.5 Add generic tools:
+ * Add generic tools:
 ```console
 IMAGE_INSTALL_append = "which gzip python python-pip"
 IMAGE_INSTALL_append = "wget cmake gtest git zlib patchelf"
@@ -65,7 +65,7 @@ IMAGE_INSTALL_append = "nano grep vim tmux swig tar unzip"
 IMAGE_INSTALL_append = "parted e2fsprogs e2fsprogs-resize2fs"
 ```
 
-4.6 Add CMake for SDK’s cross-compiler:
+ * Add CMake for SDK’s cross-compiler:
 ```console
 TOOLCHAIN_HOST_TASK_append = " nativesdk-cmake nativesdk-make "
 ```
@@ -152,12 +152,12 @@ root@docker:~/clinfo# make
 
 4. There are two ways for running the example:
 
-* Inside the container:
+ * Inside the container:
 ```console
 root@docker:~/clinfo# ./clinfo
 ```
 
-* Outside the container, this case exit the container by pressing **CTRL + P**,
+ * Outside the container, this case exit the container by pressing **CTRL + P**,
 then **CTRL + Q**:
 ```console
 # docker ps -a
