@@ -12,9 +12,9 @@ search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 
 aux_links:
-  "Source Code Available on CAF":
-    - "https://source.codeaurora.org/external/imxsupport/pyeiq/"
+  "Source Code Available on GitHub":
+    - "https://github.com/diegohdorta/idocmx"
 
-footer_content: "<a href=\"https://source.codeaurora.org/external/imxsupport/pyeiq/tree/LICENSE.md\">LICENSE TERMS</a>"
+footer_content: "<a href=\"https://raw.githubusercontent.com/diegohdorta/idocmx/master/LICENSE.md\">LICENSE TERMS</a>"
 
 color_scheme: nil
