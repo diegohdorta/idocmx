@@ -13,8 +13,8 @@ heading_anchors: true
 
 aux_links:
   "Source Code Available on CAF":
-    - "link"
+    - "https://source.codeaurora.org/external/imxsupport/pyeiq/"
 
-footer_content: "<a href=\"link">LICENSE TERMS</a>"
+footer_content: "<a href=\"https://source.codeaurora.org/external/imxsupport/pyeiq/tree/LICENSE.md\">LICENSE TERMS</a>"
 
 color_scheme: nil
